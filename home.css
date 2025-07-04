@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-photo,
+.right-details {
+  width: 50%;
+  height: 100vh;
+}
+
+.left-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 10px 0px 10px 10px;
+}
+
+.right-details {
+  padding: 40px;
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+
+.right-details h2 {
+  margin-bottom: 20px;
+}
+
+.right-details p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.logo {
+  font-size: 24px;
+  font-family: 'Segoe UI', monospace;
+}
+
+header input {
+  flex: 1 1 200px;
+  margin: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.icons span {
+  margin-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.stories {
+  display: flex;
+  overflow-x: auto;
+  background: #fff;
+  padding: 10px;
+  gap: 10px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.story {
+ background: #eee;
+ border-radius: 40px;
+ width: 60px;
+ height: 60px;
+ text-align: center;
+ line-height: 60px;
+ font-size: 12px;
+ flex-shrink: 0;
+}
+
+.feed {
+  padding: 10px;
+}
+
+.post {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+}
+
+.post-header {
+  padding: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+}
+
+.post img {
+  width: 80%;
+  height: auto;
+  display: block;
+  padding: 10px;
+}
+
+.post-actions {
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+  }
+
+  header input {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+h3{
+    padding: 0px 0px 0px 20px;
+}

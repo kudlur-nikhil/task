@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Photo Details Page</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+      <header>
+    <div class="logo">Instagram</div>
+    <input type="text" placeholder="Search">
+    <nav class="icons">
+      <span>🏠</span>
+      <span>💬</span>
+      <span>➕</span>
+      <span>❤️</span>
+      <span>👤</span> 
+      <span type="button" onclick="logout()">logout</span>
+    </nav>
+  </header>
+
+  <section class="stories">
+    <div class="story">Your Story</div>
+    <div class="story">Friend 1</div>
+    <div class="story">Friend 2</div>
+    <div class="story">Friend 3</div>
+    <div class="story">Friend 4</div>
+  </section>
+
+  <section class="feed">
+    <div class="post">
+      <div class="post-header">👤 Nik_N@K</div>
+      <img src="nature.webp" alt="Post 1">
+      <div class="post-actions">❤️ 💬 🔁</div>
+      <h4>Nature Love....... ❤️ </h4>
+    </div>
+
+    <div class="post">
+      <div class="post-header">👤 N&K</div>
+      <img src="nature1.webp" alt="Post 2">
+      <div class="post-actions">❤️ 💬 🔁</div>
+    </div>
+  </section>
+  
+     <h3>cars@GT34</h3>
+  <div class="container">
+    
+    <div class="left-photo">
+      <img src="skyline.jpg" alt="Photo Description">
+    </div>
+    <div class="right-details">
+      <h2>skyline GT34</h2>
+      <p><strong>Photographer:</strong> John Doe</p>
+      <p><strong>Date:</strong> July 3, 2025</p>
+      <p><strong>Description:</strong></p>
+      <p>The Nissan Skyline GT-R R34 is a highly sought-after sports car, renowned for its performance and iconic status in automotive history. It's known for its powerful twin-turbocharged engine, advanced all-wheel-drive system, and distinctive design</p>
+    </div>
+  </div>
+  <script>
+    function logout(){
+        window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>
+
